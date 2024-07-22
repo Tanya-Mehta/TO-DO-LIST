@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+nav {
+  background-color: rgba(17, 17, 112, 0.892);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.header {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+}
+.header >a{
+  text-decoration: none;
+  margin: 20px;
+color: black;
+
+}
+
+.container {
+  background-color: cornsilk;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+.container > h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.8rem;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea,
+button {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.644);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+}
+
+.task {
+  align-items: center;
+  margin-top: 15px;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.task span {
+  color: rgba(0, 0, 0, 0.673);
+}
+.task > div {
+  width: 100%;
+}
+.task > button {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+}
+.about{
+  background-color: red;
+  width: 100vh;
+  height: 100vh;
+}
+.contact{
+  background-color:green;
+  width: 100vh;
+  height: 100vh;
+}
+.f{
+  background-color: brown;
+  color: white;
+}
+.user{
+  background-color:rgb(47, 47, 147);
+  width: 100vh;
+  height: 100vh;
+}
